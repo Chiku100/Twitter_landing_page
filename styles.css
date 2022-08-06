@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    background-color: rgb(37, 40, 40);
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    width: 600px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    margin: auto;
+    display: flex;
+    text-align: justify;
+    /* justify-content: space-between; */
+    text-align: center;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+}
+
+.fa-xmark {
+    margin-left: 10px;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.emoticons {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.fa-google,
+.fa-apple {
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    border-radius: 20px;
+    margin: 20px;
+    height: 40px;
+    width: 350px;
+}
+
+span {
+    padding: 10px;
+}
+
+/* .login{text-align: center;margin-left: 30%;} */
+
+.fa-twitter {
+    position: absolute;
+    left: 50%;
+    margin-bottom: 100px;
+}
+
+.login {
+    margin: 80px;
+}
+
+input {
+    height: 40px;
+    background-color: black;
+    box-shadow: none;
+    width: 360px;
+    border-color: grey;
+    border-radius: 8px;
+}
+
+fieldset {
+    border-bottom: none;
+    border-left: none;
+    border-color: rgb(84, 73, 73);
+    border-right: none;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.signup {
+    margin: 40px;
+    width: 200px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+}
+
+.password {
+    background-color: black;
+    color: white;
+    border-color: rgb(227, 219, 219);
+}
